@@ -1,42 +1,19 @@
-# Mirror cho sourceware (binutils-gdb, newlib-cygwin, glibc)
-git config --global url."https://github.com/bminor/newlib.git".insteadOf "https://sourceware.org/git/newlib-cygwin.git"
-git config --global url."https://github.com/bminor/newlib.git".insteadOf "git://sourceware.org/git/newlib-cygwin.git"
+# Ánh xạ toàn bộ sourceware.org sang bminor (mirror chính thức trên GitHub)
+git config --global url."https://github.com/bminor/".insteadOf "https://sourceware.org/git/"
+git config --global url."https://github.com/bminor/".insteadOf "git://sourceware.org/git/"
 
-git config --global url."https://github.com/bminor/binutils-gdb.git".insteadOf "https://sourceware.org/git/binutils-gdb.git"
-git config --global url."https://github.com/bminor/binutils-gdb.git".insteadOf "git://sourceware.org/git/binutils-gdb.git"
-
-# Mirror cho libjaylink
+# Ánh xạ libjaylink sang GitHub repo của tác giả
 git config --global url."https://github.com/zapb/libjaylink.git".insteadOf "https://gitlab.zapb.de/libjaylink/libjaylink.git"
+git config --global url."https://github.com/zapb/libjaylink.git".insteadOf "https://gitlab.zapb.de/libjaylink/libjaylink.git/"
 git config --global url."https://github.com/zapb/libjaylink.git".insteadOf "http://repo.or.cz/r/libjaylink.git"
 
 
+# Xóa các thư mục clone lỗi dở dang (chỉ xóa thư mục rỗng/lỗi)
+rm -rf chipyard/generators/ara/ara/toolchain/newlib
+rm -rf chipyard/toolchains/riscv-tools/riscv-openocd/src/jtag/drivers/libjaylink
+rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/binutils
+
+# Đồng bộ lại toàn bộ URL từ cấu hình mới
 git submodule sync --recursive
 
-git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
-
-
-
-# Xóa các config cũ đã thêm
-git config --global --unset-all url.https://github.com/bminor/newlib.git.insteadof
-git config --global --unset-all url.https://github.com/bminor/binutils-gdb.git.insteadof
-git config --global --unset-all url.https://github.com/zapb/libjaylink.git.insteadof
-
-# Thêm quy tắc khớp theo tiền tố URL (Prefix match)
-git config --global url."https://github.com/bminor/newlib".insteadOf "https://sourceware.org/git/newlib-cygwin"
-git config --global url."https://github.com/bminor/newlib".insteadOf "git://sourceware.org/git/newlib-cygwin"
-
-git config --global url."https://github.com/bminor/binutils-gdb".insteadOf "https://sourceware.org/git/binutils-gdb"
-git config --global url."https://github.com/bminor/binutils-gdb".insteadOf "git://sourceware.org/git/binutils-gdb"
-
-git config --global url."https://github.com/zapb/libjaylink".insteadOf "https://gitlab.zapb.de/libjaylink/libjaylink"
-git config --global url."https://github.com/zapb/libjaylink".insteadOf "http://repo.or.cz/r/libjaylink"
-
-
-# Xóa cache git của newlib và libjaylink
-rm -rf .git/modules/chipyard/modules/generators/ara/modules/ara/modules/toolchain/newlib
-rm -rf .git/modules/chipyard/modules/toolchains/riscv-tools/modules/riscv-openocd/modules/src/jtag/drivers/libjaylink
-rm -rf .git/modules/chipyard/modules/toolchains/riscv-tools-feedstock/modules/riscv-gnu-toolchain/modules/binutils
-
-# Đồng bộ lại cấu hình submodule toàn bộ dự án
-git submodule sync --recursive
 git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
