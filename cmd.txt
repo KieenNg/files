@@ -1,15 +1,11 @@
-find . -name ".gitmodules" -exec sed -i 's|https://sourceware.org/git/newlib-cygwin.git|https://github.com/bminor/newlib.git|g' {} +
-find . -name ".gitmodules" -exec sed -i 's|git://sourceware.org/git/newlib-cygwin.git|https://github.com/bminor/newlib.git|g' {} +
-find . -name ".gitmodules" -exec sed -i 's|https://sourceware.org/git/binutils-gdb.git|https://github.com/bminor/binutils-gdb.git|g' {} +
-find . -name ".gitmodules" -exec sed -i 's|git://sourceware.org/git/binutils-gdb.git|https://github.com/bminor/binutils-gdb.git|g' {} +
-find . -name ".gitmodules" -exec sed -i 's|https://gitlab.zapb.de/libjaylink/libjaylink.git|https://github.com/zapb/libjaylink.git|g' {} +
-find . -name ".gitmodules" -exec sed -i 's|http://repo.or.cz/r/libjaylink.git|https://github.com/zapb/libjaylink.git|g' {} +
-
-# Xóa các thư mục clone dở dang
 rm -rf chipyard/generators/ara/ara/toolchain/newlib
 rm -rf chipyard/toolchains/riscv-tools/riscv-openocd/src/jtag/drivers/libjaylink
 rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/binutils
+rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/dejagnu
+rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/gcc
+rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/gdb
+rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/glibc
+rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/musl
 
-# Đồng bộ lại cấu hình vừa sửa vào Git index
 git submodule sync --recursive
 git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
