@@ -1,3 +1,10 @@
+# Xóa các thay đổi cục bộ trong thư mục hiện tại
+git restore .
+
+# Xóa các thiết lập thay thế URL trong Git global (nếu vẫn còn)
+git config --global --remove-section url."https://github.com/bminor/"
+git config --global --remove-section url."https://github.com/zapb/libjaylink.git"
+
 rm -rf chipyard/generators/ara/ara/toolchain/newlib
 rm -rf chipyard/toolchains/riscv-tools/riscv-openocd/src/jtag/drivers/libjaylink
 rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/binutils
@@ -8,4 +15,3 @@ rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain
 rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/musl
 
 git submodule sync --recursive
-git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
