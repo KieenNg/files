@@ -13,3 +13,30 @@ git config --global url."https://github.com/zapb/libjaylink.git".insteadOf "http
 git submodule sync --recursive
 
 git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
+
+
+
+# Xóa các config cũ đã thêm
+git config --global --unset-all url.https://github.com/bminor/newlib.git.insteadof
+git config --global --unset-all url.https://github.com/bminor/binutils-gdb.git.insteadof
+git config --global --unset-all url.https://github.com/zapb/libjaylink.git.insteadof
+
+# Thêm quy tắc khớp theo tiền tố URL (Prefix match)
+git config --global url."https://github.com/bminor/newlib".insteadOf "https://sourceware.org/git/newlib-cygwin"
+git config --global url."https://github.com/bminor/newlib".insteadOf "git://sourceware.org/git/newlib-cygwin"
+
+git config --global url."https://github.com/bminor/binutils-gdb".insteadOf "https://sourceware.org/git/binutils-gdb"
+git config --global url."https://github.com/bminor/binutils-gdb".insteadOf "git://sourceware.org/git/binutils-gdb"
+
+git config --global url."https://github.com/zapb/libjaylink".insteadOf "https://gitlab.zapb.de/libjaylink/libjaylink"
+git config --global url."https://github.com/zapb/libjaylink".insteadOf "http://repo.or.cz/r/libjaylink"
+
+
+# Xóa cache git của newlib và libjaylink
+rm -rf .git/modules/chipyard/modules/generators/ara/modules/ara/modules/toolchain/newlib
+rm -rf .git/modules/chipyard/modules/toolchains/riscv-tools/modules/riscv-openocd/modules/src/jtag/drivers/libjaylink
+rm -rf .git/modules/chipyard/modules/toolchains/riscv-tools-feedstock/modules/riscv-gnu-toolchain/modules/binutils
+
+# Đồng bộ lại cấu hình submodule toàn bộ dự án
+git submodule sync --recursive
+git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
