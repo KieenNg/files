@@ -1,0 +1,15 @@
+# Mirror cho sourceware (binutils-gdb, newlib-cygwin, glibc)
+git config --global url."https://github.com/bminor/newlib.git".insteadOf "https://sourceware.org/git/newlib-cygwin.git"
+git config --global url."https://github.com/bminor/newlib.git".insteadOf "git://sourceware.org/git/newlib-cygwin.git"
+
+git config --global url."https://github.com/bminor/binutils-gdb.git".insteadOf "https://sourceware.org/git/binutils-gdb.git"
+git config --global url."https://github.com/bminor/binutils-gdb.git".insteadOf "git://sourceware.org/git/binutils-gdb.git"
+
+# Mirror cho libjaylink
+git config --global url."https://github.com/zapb/libjaylink.git".insteadOf "https://gitlab.zapb.de/libjaylink/libjaylink.git"
+git config --global url."https://github.com/zapb/libjaylink.git".insteadOf "http://repo.or.cz/r/libjaylink.git"
+
+
+git submodule sync --recursive
+
+git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
