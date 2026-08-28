@@ -1,12 +1,4 @@
-rm -rf chipyard/generators/ara/ara/toolchain/riscv-gnu-toolchain/qemu
-rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/gdb
-
-git config --global submodule.fetchJobs 1
-
-git submodule sync --recursive
-git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
-
-rm -rf .git/modules/chipyard/modules/generators/ara/modules/ara/modules/toolchain/riscv-gnu-toolchain/modules/qemu
-rm -rf chipyard/generators/ara/ara/toolchain/riscv-gnu-toolchain/qemu
+git config --global url."https://github.com/tianocore/edk2-subhook.git".insteadOf "https://github.com/Zeex/subhook.git"
+rm -rf chipyard/toolchains/riscv-tools/riscv-tools-feedstock/riscv-gnu-toolchain/qemu/roms/edk2/UnitTestFrameworkPkg/Library/SubhookLib/subhook
 git submodule sync --recursive
 git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
