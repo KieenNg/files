@@ -5,3 +5,8 @@ git config --global submodule.fetchJobs 1
 
 git submodule sync --recursive
 git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
+
+rm -rf .git/modules/chipyard/modules/generators/ara/modules/ara/modules/toolchain/riscv-gnu-toolchain/modules/qemu
+rm -rf chipyard/generators/ara/ara/toolchain/riscv-gnu-toolchain/qemu
+git submodule sync --recursive
+git submodule update --init --recursive chipyard/ projects/system-cpu-quad/
