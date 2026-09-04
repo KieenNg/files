@@ -1,22 +1,36 @@
 # ----- REMOVE LINES ABOVE HERE --------------------------
 #
-# This license is valid from Thu Sep 03 01:48:26 UTC 2026.
+# This license is valid from Thu Sep 03 02:20:10 UTC 2026.
 #
 # This is license NODELOCKED to HOSTID=801844e98bd9;
 # there is no need to run lmgrd for this license.
 #
 #
-#  This license is valid for evaluation ( 30 days ) from Thu Sep 03 01:48:26 UTC 2026
-INCREMENT ISE_Embedded_Edition xilinxd 2025.08 04-oct-2026 uncounted \
-5D6AB472FCA0 \
-VENDOR_STRING=phuoc09bv@gmail.com,ISE_Embedded_Edition,software,evaluation,_213031887_0_0_902 \
+#  This license is valid for evaluation ( 60 days ) from Thu Sep 03 02:20:10 UTC 2026
+INCREMENT Vivado_Enterprise_Package xilinxd 2027.09 03-nov-2026 \
+uncounted B8C8D47DF0E9 \
+VENDOR_STRING=License_Tier:ENTERPRISE,phuoc09bv@gmail.com,Vivado_Enterprise_Package,software,evaluation,_213031887_0_0_722 \
 HOSTID=801844e98bd9 ISSUER="Xilinx Inc" START=03-Sep-2026 \
 TS_OK
 #
-#  This license is valid for evaluation ( 30 days ) from Thu Sep 03 01:48:26 UTC 2026
-INCREMENT Vivado_ML_Enterprise_Edition xilinxd 2025.08 04-oct-2026 \
-uncounted 961E0FAC79AC \
-VENDOR_STRING=phuoc09bv@gmail.com,Vivado_ML_Enterprise_Edition,software,evaluation,_213031887_0_0_945 \
+#  This license is valid for evaluation ( 60 days ) from Thu Sep 03 02:20:10 UTC 2026
+INCREMENT Vivado_Simulation xilinxd 2027.09 03-nov-2026 uncounted \
+7749E904A959 \
+VENDOR_STRING=License_Tier:ENTERPRISE,phuoc09bv@gmail.com,Vivado_Simulation,software,evaluation,_213031887_0_0_166 \
+HOSTID=801844e98bd9 ISSUER="Xilinx Inc" START=03-Sep-2026 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Thu Sep 03 02:20:10 UTC 2026
+INCREMENT Vivado_ML_Enterprise_Edition xilinxd 2027.09 03-nov-2026 \
+uncounted E615E9703328 \
+VENDOR_STRING=License_Tier:ENTERPRISE,phuoc09bv@gmail.com,Vivado_ML_Enterprise_Edition,software,evaluation,_213031887_0_0_809 \
+HOSTID=801844e98bd9 ISSUER="Xilinx Inc" START=03-Sep-2026 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Thu Sep 03 02:20:10 UTC 2026
+INCREMENT ISE_Embedded_Edition xilinxd 2027.09 03-nov-2026 uncounted \
+68647FB93CE3 \
+VENDOR_STRING=License_Tier:ENTERPRISE,phuoc09bv@gmail.com,ISE_Embedded_Edition,software,evaluation,_213031887_0_0_525 \
 HOSTID=801844e98bd9 ISSUER="Xilinx Inc" START=03-Sep-2026 \
 TS_OK
 #
@@ -24,9 +38,9 @@ TS_OK
 # ----------------------------------------------------------------------
 #  The following PACKAGE definition is a REQUIRED part of this license:
 #
-PACKAGE ISE_Embedded_Edition xilinxd 2025.08 A006005F90F4 \
-COMPONENTS="ChipScopePro_SIOTK ChipscopePro ISE XPS ISIM \
-PlanAhead SDK" OPTIONS=SUITE
+PACKAGE Vivado_Enterprise_Package xilinxd 2027.09 2A324AD3844B \
+COMPONENTS="Analyzer HLS PartialReconfiguration Implementation \
+SDK Simulation Synthesis Vivado_Tier" OPTIONS=SUITE
 #
 # ------------------------------------------------------------------------------
 #
@@ -34,9 +48,19 @@ PlanAhead SDK" OPTIONS=SUITE
 # ----------------------------------------------------------------------
 #  The following PACKAGE definition is a REQUIRED part of this license:
 #
-PACKAGE Vivado_ML_Enterprise_Edition xilinxd 2025.08 93D1B87DE6E8 \
+PACKAGE Vivado_ML_Enterprise_Edition xilinxd 2027.09 19D424C36C66 \
 COMPONENTS="Analyzer HLS Implementation PartialReconfiguration \
 SDK Simulation Synthesis" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE ISE_Embedded_Edition xilinxd 2027.09 E4713C814C56 \
+COMPONENTS="ChipScopePro_SIOTK ChipscopePro ISE XPS ISIM \
+PlanAhead SDK" OPTIONS=SUITE
 #
 # ------------------------------------------------------------------------------
 #
