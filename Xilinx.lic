@@ -1,15 +1,15 @@
 # ----- REMOVE LINES ABOVE HERE --------------------------
 #
-# This license is valid from Tue Nov 10 01:25:50 UTC 2026.
+# This license is valid from Tue Nov 10 01:49:12 UTC 2026.
 #
 # This is license NODELOCKED to HOSTID=48df37dbbf70;
 # there is no need to run lmgrd for this license.
 #
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT plb_temac xilinxd 2027.02 11-mar-2027 uncounted \
-B190EE24E474 \
-VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,plb_temac,ip,evaluation,_213224341_0_0_665 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT plb_temac xilinxd 2027.03 11-mar-2027 uncounted \
+26D1887F8C55 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,plb_temac,ip,evaluation,_213224341_0_0_109 \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
@@ -26,11 +26,11 @@ core was generated for nguyenkien.hust@gmail.com on \
 core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." TS_OK
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT xps_ll_temac xilinxd 2027.02 11-mar-2027 uncounted \
-B1EDDDAA1E44 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT xps_ll_temac xilinxd 2027.03 11-mar-2027 uncounted \
+87661F075BFA \
 VENDOR_STRING="License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com, \
-xps_ll_temac,ip,evaluation,_213224341_0_0_924" \
+xps_ll_temac,ip,evaluation,_213224341_0_0_028" \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
@@ -56,10 +56,10 @@ core was generated for nguyenkien.hust@gmail.com on \
 core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." TS_OK
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT soft_temac_wrap xilinxd 2027.02 11-mar-2027 uncounted \
-B4EC910A49DB \
-VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,soft_temac_wrap,ip,evaluation,_213224341_0_0_869 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT soft_temac_wrap xilinxd 2027.03 11-mar-2027 uncounted \
+A311300B430C \
+VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,soft_temac_wrap,ip,evaluation,_213224341_0_0_904 \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
@@ -76,10 +76,10 @@ core was generated for nguyenkien.hust@gmail.com on \
 core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." TS_OK
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT 10_100_mb_eth_mac xilinxd 2027.02 11-mar-2027 uncounted \
-D712605AF490 \
-VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,10_100_mb_eth_mac,ip,evaluation,_213224341_0_0_425 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT 10_100_mb_eth_mac xilinxd 2027.03 11-mar-2027 uncounted \
+D4C8BF45D4C0 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,10_100_mb_eth_mac,ip,evaluation,_213224341_0_0_348 \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
@@ -87,10 +87,10 @@ core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." START=10-Nov-2026 \
 TS_OK
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT opb_ethernet xilinxd 2027.02 11-mar-2027 uncounted \
-DE91CD69A99C \
-VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,opb_ethernet,ip,evaluation,_213224341_0_0_568 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT opb_ethernet xilinxd 2027.03 11-mar-2027 uncounted \
+B057783919C2 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,opb_ethernet,ip,evaluation,_213224341_0_0_902 \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
@@ -152,10 +152,10 @@ core was generated for nguyenkien.hust@gmail.com on \
 core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." TS_OK
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT plb_ethernet xilinxd 2027.02 11-mar-2027 uncounted \
-C7D9451039FB \
-VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,plb_ethernet,ip,evaluation,_213224341_0_0_623 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT plb_ethernet xilinxd 2027.03 11-mar-2027 uncounted \
+C2CFD6549709 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,plb_ethernet,ip,evaluation,_213224341_0_0_766 \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
@@ -181,10 +181,10 @@ core was generated for nguyenkien.hust@gmail.com on \
 core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." TS_OK
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT tri_mode_eth_mac xilinxd 2027.02 11-mar-2027 uncounted \
-7FB7BF59A915 \
-VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,tri_mode_eth_mac,ip,evaluation,_213224341_0_0_167 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT tri_mode_eth_mac xilinxd 2027.03 11-mar-2027 uncounted \
+6595BF7EC126 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,tri_mode_eth_mac,ip,evaluation,_213224341_0_0_563 \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
@@ -228,10 +228,10 @@ core was generated for nguyenkien.hust@gmail.com on \
 core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." TS_OK
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT axi_ethernet_soft_10_100 xilinxd 2027.02 11-mar-2027 \
-uncounted EC66534AEB42 \
-VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,axi_ethernet_soft_10_100,ip,evaluation,_213224341_0_0_366 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT axi_ethernet_soft_10_100 xilinxd 2027.03 11-mar-2027 \
+uncounted 7A2270903662 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,axi_ethernet_soft_10_100,ip,evaluation,_213224341_0_0_209 \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
@@ -239,15 +239,73 @@ core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." START=10-Nov-2026 \
 TS_OK
 #
-#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:25:50 UTC 2026
-INCREMENT axi_ethernet_soft_tri_mode xilinxd 2027.02 11-mar-2027 \
-uncounted 615C5EDCA148 \
-VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,axi_ethernet_soft_tri_mode,ip,evaluation,_213224341_0_0_107 \
+#  This license is valid for evaluation ( 120 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT axi_ethernet_soft_tri_mode xilinxd 2027.03 11-mar-2027 \
+uncounted 3827F62B8407 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;nguyenkien.hust@gmail.com,axi_ethernet_soft_tri_mode,ip,evaluation,_213224341_0_0_541 \
 HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" NOTICE="The license \
 for this core was generated for nguyenkien.hust@gmail.com on \
 11/11/2026It is the responsibility of the Licensee of this \
 core to adhere to all terms and conditions of the applicable \
 license agreement when using this core." START=10-Nov-2026 \
 TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT Vivado_Enterprise_Package xilinxd 2027.11 10-jan-2027 \
+uncounted D956B7BF2DBE \
+VENDOR_STRING=License_Tier:ENTERPRISE,nguyenkien.hust@gmail.com,Vivado_Enterprise_Package,software,evaluation,_213224341_0_0_461 \
+HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" START=10-Nov-2026 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT Vivado_Simulation xilinxd 2027.11 10-jan-2027 uncounted \
+42627E001987 \
+VENDOR_STRING=License_Tier:ENTERPRISE,nguyenkien.hust@gmail.com,Vivado_Simulation,software,evaluation,_213224341_0_0_241 \
+HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" START=10-Nov-2026 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT Vivado_ML_Enterprise_Edition xilinxd 2027.11 10-jan-2027 \
+uncounted 93B61C519F85 \
+VENDOR_STRING=License_Tier:ENTERPRISE,nguyenkien.hust@gmail.com,Vivado_ML_Enterprise_Edition,software,evaluation,_213224341_0_0_807 \
+HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" START=10-Nov-2026 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Nov 10 01:49:12 UTC 2026
+INCREMENT ISE_Embedded_Edition xilinxd 2027.11 10-jan-2027 uncounted \
+9433B8C6B2F1 \
+VENDOR_STRING=License_Tier:ENTERPRISE,nguyenkien.hust@gmail.com,ISE_Embedded_Edition,software,evaluation,_213224341_0_0_722 \
+HOSTID=48df37dbbf70 ISSUER="Xilinx Inc" START=10-Nov-2026 \
+TS_OK
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE Vivado_Enterprise_Package xilinxd 2027.11 D746F39A9DFA \
+COMPONENTS="Analyzer HLS PartialReconfiguration Implementation \
+SDK Simulation Synthesis Vivado_Tier" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE Vivado_ML_Enterprise_Edition xilinxd 2027.11 E1667638D46E \
+COMPONENTS="Analyzer HLS Implementation PartialReconfiguration \
+SDK Simulation Synthesis" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE ISE_Embedded_Edition xilinxd 2027.11 CB1A6FA18EEA \
+COMPONENTS="ChipScopePro_SIOTK ChipscopePro ISE XPS ISIM \
+PlanAhead SDK" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
 #
 # ----- REMOVE LINES BELOW HERE --------------------------
